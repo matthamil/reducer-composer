@@ -1,0 +1,11 @@
+{
+  "name": "reducer-composer",
+  "version": "0.0.1",
+  "description": "Compose functions to safely access and update state immutably without the cruft of avoiding mutations",
+  "main": "index.js",
+  "author": "Matt Hamil <mhamildev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
