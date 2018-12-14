@@ -20,7 +20,7 @@ describe("reducerComposer", () => {
     };
 
     const movieReducer = reducerComposer(
-      (state, action) => action.payload.movieId,
+      (_state, action) => action.payload.movieId,
       (state, _action) => state.movie,
       (_state, action) => ({
         hasWatched: action.payload.hasWatched
@@ -51,7 +51,7 @@ describe("reducerComposer", () => {
     };
 
     const movieReducer = reducerComposer(
-      (state, action) => action.payload.movieId,
+      (_state, action) => action.payload.movieId,
       (state, _action) => state.movie,
       (_state, action) => ({
         hasWatched: action.payload.hasWatched
