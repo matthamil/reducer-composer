@@ -6,6 +6,8 @@
 
 ### Install
 
+> :warning: This isn't published. This will not work.
+
 ```sh
 yarn add reducer-composer
 # or
